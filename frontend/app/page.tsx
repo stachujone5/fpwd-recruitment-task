@@ -20,7 +20,7 @@ export default async function Home() {
   if (error) {
     return (
       <main className="min-h-screen flex justify-center items-center">
-        <p>Error fetching exchange rate</p>
+        <p>Error fetching exchange rate (Check backend envs :D)</p>
       </main>
     );
   }
