@@ -5,9 +5,11 @@
 ```bash
 cd backend
 cp .env.example .env
+```
 
-fill env variables
+Fill env variables
 
+```bash
 pnpm install
 pnpm start:dev
 ```
